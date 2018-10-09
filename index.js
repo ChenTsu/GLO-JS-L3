@@ -96,6 +96,6 @@ function setOptExpenses() {
       continue;
     }
     
-    appData.optionalExpenses[i] = tmp;
+    appData.optionalExpenses[i+1] = tmp;
   }
 }
